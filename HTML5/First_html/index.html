@@ -20,12 +20,22 @@
 <!--
     Start of declaration of html and
     it must end with closing tag e.g </html>
+
+    We also specify English as main language 
 -->
-<html>
+<html lang="en">
   <!--
     The header of html
   -->
   <head>
+    <!--
+      Metadata of html document.
+
+      Character of content is UTF-8.
+      Width is device width and scale is 1.0
+    -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--
         The title of page
     -->
@@ -36,71 +46,87 @@
   -->
   <body>
     <!--
-        Title tag with different size
+      main content
     -->
-    <h1>Big title</h1>
-    <h2>A bit smaller title</h2>
-    <h3>Much smaller title</h3>
-
-    <!--
-        Paragraph tag
-    -->
-    <p>This is a paragraph</p>
-    <p>This is an other paragraph</p>
-
-    <p>
+    <main>
       <!--
-            emphasis tag which turn text into italic
-        -->
-      <em>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum
-      </em>
-    </p>
-
-    <p>
-      <!--
-            strong tag which turn text into bold
-        -->
-      <strong>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum
-      </strong>
-    </p>
-
-    <!--
-      ol tag which is an ordered list
-    -->
-    <ol>
-      <!--
-        li tag which is list of item
+        A section of document
       -->
-      <li>apple</li>
-      <li>orange</li>
-      <li>banana</li>
-    </ol>
+      <section>
+        <!--
+          Title tag with different size
+        -->
+        <h1>Big title</h1>
+        <h2>A bit smaller title</h2>
+        <h3>Much smaller title</h3>
+      </section>
 
-    <!--
-      ul tag which is an unordered list
-    -->
-    <ul>
-      <li>apple</li>
-      <li>orange</li>
-      <li>banana</li>
-    </ul>
+      <section>
+        <!--
+          Paragraph tag
+        -->
+        <p>This is a paragraph</p>
+        <p>This is an other paragraph</p>
+
+        <p>
+          <!--
+            emphasis tag which turn text into italic
+          -->
+          <em>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum
+          </em>
+        </p>
+
+        <p>
+          <!--
+            strong tag which turn text into bold
+          -->
+          <strong>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum
+          </strong>
+        </p>
+      </section>
+
+      <section>
+        <!--
+          ol tag which is an ordered list
+        -->
+        <ol>
+          <!--
+            li tag which is list of item
+          -->
+          <li>apple</li>
+          <li>orange</li>
+          <li>banana</li>
+        </ol>
+
+        <!--
+          ul tag which is an unordered list
+        -->
+        <ul>
+          <li>apple</li>
+          <li>orange</li>
+          <li>banana</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>2024 web</footer>
   </body>
 </html>
