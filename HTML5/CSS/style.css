@@ -6,8 +6,42 @@ Selector {
 } 
 */
 
-h2 {
-  color: red;
+* {
+  text-align: right;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+h2,
+p {
+  color: #aa4139;
+  text-align: center;
+  border: 5px solid rgb(255, 176, 170);
+  cursor: pointer;
+}
+
+/*
+select the p right after h2
+*/
+h2 + p {
+  color: chartreuse;
+}
+
+/*
+select h2  whose parent is footer
+*/
+footer > h2 {
+  color: aqua;
+}
+
+/*
+select all p under footer
+*/
+footer p {
+  color: blueviolet;
 }
 
 p {
@@ -16,4 +50,25 @@ p {
 
 p {
   color: green;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.paragraph {
+  border: 5px dashed green;
+}
+
+.active {
+  color: red;
+}
+
+#div1 {
+  background-color: rgba(255, 228, 196, 0.8);
+}
+
+#div1:hover {
+  border: 5px solid red;
 }
