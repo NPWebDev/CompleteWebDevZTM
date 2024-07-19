@@ -49,7 +49,22 @@ p {
 }
 
 p {
-  color: green;
+  color: coral;
+  line-height: 20px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: "Poiret One", sans-serif;
+}
+
+img {
+  float: right;
+}
+
+footer {
+  color: aqua;
+  clear: both;
+  text-align: center;
 }
 
 li {
